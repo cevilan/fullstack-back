@@ -11,4 +11,4 @@ def pizza():
     
     persistencia.guardar_pedido(nombre,apellidos)
     
-    return redirect("http://localhost/actividad-M1-U1/solicita_pedido.html", code=302)
+    return redirect("http://localhost/fullstack/solicita_pedido.html", code=302)
